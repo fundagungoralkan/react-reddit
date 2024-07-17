@@ -1,0 +1,22 @@
+  /* Search Input */
+  input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+  }
+    
+    /* Search Button */
+  button[type="submit"] {
+    padding: 8px 16px;
+    background-color: #0079d3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+    
+    /* Search Button Hover */
+  button[type="submit"]:hover {
+    background-color: #005ea6;
+  }
