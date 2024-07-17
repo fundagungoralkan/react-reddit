@@ -1,0 +1,30 @@
+.comment {
+    background-color: #f8f9fa; /* Light gray */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-bottom: 5px;
+}
+
+.info p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #6c757d; /* Gray */
+}
+
+.comment-body {
+    margin-top: 5px;
+}
+
+.comment-body p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.comment-body p:last-child {
+    margin-bottom: 0;
+}

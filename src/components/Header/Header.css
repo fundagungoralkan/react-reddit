@@ -1,0 +1,40 @@
+/* Header Container */
+header {
+    background-color: #ff4500;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+    
+    /* Logo */
+  .logo {
+    color: white;
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+    
+    /* Title */
+  h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: white;
+  }
+    
+    /* Title Span */
+  h1 span {
+    font-weight: normal;
+    color: #0079d3;
+  }
+    
+    /* Search Form */
+  form {
+    margin-left: auto;
+  }
+    
+  @media screen and (max-width: 480px) {
+    h1 {
+      display: none;
+    }
+  }
+    
